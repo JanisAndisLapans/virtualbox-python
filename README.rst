@@ -1,7 +1,11 @@
-# This is a fork mainly intended for personal use
+This is a fork mainly intended for personal use
+*****************
+
 This is an attempt to add quick/hacky fixes to the library to work with newer VirtualBox API versions. I'm doing this for my own needs, so this probably won't be maintained.
 
-# Original README:
+Original README:
+*****************
+
 virtualbox-python
 *****************
 
