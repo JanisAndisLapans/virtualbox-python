@@ -21,6 +21,7 @@ class IGuestSession(library.IGuestSession):
         self,
         command,
         arguments=None,
+        cwd='/',
         stdin="",
         environment=None,
         flags=None,
@@ -78,6 +79,7 @@ class IGuestSession(library.IGuestSession):
             timeout_ms,
             priority,
             affinity,
+            cwd,
         )
 
         process.wait_for(int(library.ProcessWaitResult.start), 0)

@@ -13,7 +13,7 @@ class IGuest(library.IGuest):
     __doc__ = library.IGuest.__doc__
 
     def create_session(
-        self, user, password, domain="", session_name="pyvbox", timeout_ms=0
+        self, user, password, domain="", session_name="", timeout_ms=0
     ):
         session = super(IGuest, self).create_session(
             user, password, domain, session_name

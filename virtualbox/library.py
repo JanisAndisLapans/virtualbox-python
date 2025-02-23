@@ -23464,6 +23464,7 @@ class IGuestSession(Interface):
         timeout_ms,
         priority,
         affinity,
+        cwd,
     ):
         """Creates a new process running in the guest with the extended options
         for setting the process priority and affinity.
@@ -23557,6 +23558,7 @@ class IGuestSession(Interface):
             in_p=[
                 executable,
                 arguments,
+                cwd,
                 environment_changes,
                 flags,
                 timeout_ms,
